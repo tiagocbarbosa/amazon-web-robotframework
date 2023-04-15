@@ -1,7 +1,7 @@
 *** Settings ***
 Resource    ../resources/amazon_testing.resource
 Test Setup  Abrir o navegador
-#Test Teardown   Fechar o navegador
+Test Teardown   Fechar o navegador
 
 *** Test Cases ***
 Caso de Teste 01 - Acesso ao menu "Eletrônicos"
