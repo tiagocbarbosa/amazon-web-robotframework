@@ -1,5 +1,5 @@
 # amazon-web-robotframework
-The application is a test automation of the website [Amazon.com.br](https://www.amazon.com.br/), the Brazilian version of Amazon.com.
+The application is a test automation of the website [Amazon.com.br](https://www.amazon.com.br/), the Brazilian version of [Amazon.com](https://www.amazon.com).
 
 The automation uses Robot Framework, Selenium Webdriver and Python technologies.
 
