@@ -1,5 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
+Library    Screenshot
 
 *** Variables ***
 ${MENU_LIVROS}  //*[@id="nav-xshop"]/a[7]
@@ -50,3 +51,13 @@ Adicionar o produto "${product_name}" no carrinho
 
 Verificar se o produto "${product_name}" foi adicionado com sucesso
     Wait Until Element Is Visible    //*[@id="sw-all-product-variations"]/ul/li/span/span[2]
+
+Remover o produto "Console Xbox Series S" do carrinho
+    Click Element    //a[contains(@data-csa-c-type,'button')]
+    Aguardar página carregar por completo
+    Capture Page Screenshot
+    Click Element    submit.delete.Cd6b5dc14-cee2-45f8-aeba-7568a6f8baab    # o elemento não está sendo encontrado
+#    Sleep    8s
+
+Verificar se o carrinho fica vazio
+    Wait Until Element Is Visible    //span[@class='a-size-medium sc-number-of-items'][contains(.,'Subtotal  (0 itens):')]
