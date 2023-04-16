@@ -4,7 +4,7 @@ The application is a test automation of the website [Amazon.com.br](https://www.
 The automation uses Robot Framework, Selenium Webdriver and Python technologies.
 
 ## How to use
-To use the project, clone it on your machine and open it on your favorite IDE.
+To use this project, clone it on your machine and open it on your favorite IDE.
 
 In the [/tests](https://github.com/tiagocbarbosa/amazon-web-robotframework/tree/main/tests) dir you will find the Tests Scenarios of the web application; in the [/resources](https://github.com/tiagocbarbosa/amazon-web-robotframework/tree/main/resources) you will find the scenarios' definition.
 
