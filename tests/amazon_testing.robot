@@ -35,4 +35,4 @@ Caso de Teste 03 - Remover Produto do Carrinho
     Adicionar o produto "Console Xbox Series S" no carrinho
     Verificar se o produto "Console Xbox Series S" foi adicionado com sucesso
     Remover o produto "Console Xbox Series S" do carrinho
-#    Verificar se o carrinho fica vazio
+    Verificar se o carrinho fica vazio
