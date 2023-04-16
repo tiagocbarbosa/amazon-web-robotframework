@@ -14,7 +14,23 @@ To execute the application, check if you have downloaded and configured Python, 
 
 Open your favorite terminal and execute the command ``robot -d results/ tests/``, the output must be something similar to it:
 
-{TO DO: add the output here}
+````bash
+==============================================================================
+Amazon Testing
+==============================================================================
+Caso de Teste 01 - Acesso ao menu "Livros" :: Esse teste verifica ... | PASS |
+------------------------------------------------------------------------------
+Caso de Teste 02 - Adicionar Produto no Carrinho :: Esse teste ver... | PASS |
+------------------------------------------------------------------------------
+Caso de Teste 03 - Remover Produto do Carrinho :: Esse teste verif... | PASS |
+------------------------------------------------------------------------------
+Amazon Testing                                                        | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\{dir}\amazon-web-robotframework\results\output.xml
+Log:     C:\{dir}\amazon-web-robotframework\results\log.html
+Report:  C:\{dir}\amazon-web-robotframework\results\report.html
+````
 
 You can see the tests report by opening the file ``/results/report.html`` that will be created after the tests execution.
 
