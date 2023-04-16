@@ -3,7 +3,7 @@ The application is a test automation of the website [Amazon.com.br](https://www.
 
 The automation uses Robot Framework, Selenium Webdriver and Python technologies.
 
-Important: the Amazon.com.br is constantly changing, so the HTML elements names and IDs. Because of this it may be necessary change the elements search in the [/resources/amazon_testing.resource](https://github.com/tiagocbarbosa/amazon-web-robotframework/tree/main/resources/amazon_testing.resource) file.
+Important: the Amazon.com.br is constantly changing, so the HTML elements XPATH, names and IDs. Because of this it may be necessary change the elements search in the [/resources/amazon_testing.resource](https://github.com/tiagocbarbosa/amazon-web-robotframework/tree/main/resources/amazon_testing.resource) file.
 
 ## How to use
 To use this project, clone it on your machine and open it on your favorite IDE.
